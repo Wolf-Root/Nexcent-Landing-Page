@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+
+  /* Colors */
+
+  /* Neutral */
+  --color-Neutral-Black: #263238;
+  --color-Neutral-D_Grey: #4D4D4D;
+  --color-Neutral-Grey: #717171;
+  --color-Neutral-L_Grey: #89939E;
+  --color-Neutral-Grey-blue: #ABBED1;
+  --color-Neutral-Silver: #F5F7FA;
+
+  /* Primary */
+  --color-Primary: #4CAF4F;
+
+  /* Secondary */
+  --color-Secondary: #263238;
+
+  /* Info */
+  --color-Info: #2194f3;
+
+  /* Color Shade */
+  --color-Shade-1: #43A046;
+  --color-Shade-2: #388E3B;
+  --color-Shade-3: #237D31;
+  --color-Shade-4: #1B5E1F;
+  --color-Shade-5: #103E13;
+
+  /* Color Tint */
+  --color-Tint-1: #66BB69;
+  --color-Tint-2: #81C784;
+  --color-Tint-3: #A5D6A7;
+  --color-Tint-4: #C8E6C9;
+  --color-Tint-5: #E8F5E9;
+
+  /* Action */
+  --color-Warning: #FBC02D;
+  --color-Error: #E53835;
+  --color-Success: #2E7D31;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
