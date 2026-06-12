@@ -8,7 +8,7 @@ import Button from "@mui/material/Button";
 
 export default function Hero() {
   return (
-    <Box component="section" id="Home" className="bg-Neutral-Silver">
+    <Box component="section" id="Home" className="bg-Neutral-Silver w-full">
       <Container className="w-full min-h-dvh flex flex-col justify-center py-5">
         <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 5, md: 10 }} sx={{ display: "flex" }}>
           {/* Left (Text)  */}
